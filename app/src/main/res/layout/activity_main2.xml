@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:layout_marginBottom="16dp"
+            android:text="My Photo Gallery"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2">
+
+            <ImageView
+                android:id="@+id/imgCat1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cat1" />
+
+            <ImageView
+                android:id="@+id/imgCat2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cat2" />
+
+            <ImageView
+                android:id="@+id/imgCat3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cat3" />
+
+            <ImageView
+                android:id="@+id/imgCat4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cat4" />
+
+            <ImageView
+                android:id="@+id/imgCat5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cat5" />
+
+            <ImageView
+                android:id="@+id/imgCat6"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cat6" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
